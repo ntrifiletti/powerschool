@@ -27,6 +27,15 @@ Following resources will be created by these templates:
 
 
 
+
+
+
+
+
+
+
+
+
 ## DEPLOY HIGH AVAILABILITY CLUSTER
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2Fmain%2Fcustom-ha-as-no-elb-no-rt.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
