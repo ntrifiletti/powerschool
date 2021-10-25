@@ -5,6 +5,8 @@ These Azure Resource Manager (ARM) templates in this repo will deploy single ins
 These templates are useful when migrating to existing resource groups, vnets and where you intend to reuse existing infrastructure. 
 
 ## Prerequisites
+`Important - The templates are designed to be deployed into Resource Groups and VNET's that already exist!`
+
 The solution does a check of the template when you use the provide scripts. It does require that [Programmatic Deployment](https://azure.microsoft.com/en-us/blog/working-with-marketplace-images-on-azure-resource-manager/) is enabled for the Barracuda CloudGen Firewall F BYOL or PAYG images. Barracuda recommends use of **DS2_v2**, **Dv3_v3**, or newer series. 
 
 You can enable programmatic deployment via Powershell using the Cloud Shell feature in the portal. Below are two powershell examples for byol and hourly, please adapt as required to your version of powershell and byol or hourly license requirement.
@@ -12,7 +14,7 @@ You can enable programmatic deployment via Powershell using the Cloud Shell feat
 `Get-AzMarketplaceTerms -Publisher "barracudanetworks" -Product "barracuda-ng-firewall" -Name "byol" | Set-AzMarketplaceTerms -Accept`
 `Get-AzureRmMarketplaceTerms -Publisher "barracudanetworks" -Product "barracuda-ng-firewall" -Name "hourly" | Set-AzureRmMarketplaceTerms -Accept`
 
-`Important - The templates are designed to be deployed into Resource Groups and VNET's that already exist!`
+
 
 
 
