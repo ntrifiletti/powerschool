@@ -1,5 +1,4 @@
-# # Barracuda CloudGen Firewall Custom High Availability
-
+# # Barracuda CloudGen Firewall Custom Scripts for Migration
 ## Introduction
 This Azure Resource Manager (ARM) template will deploy a cluster of Barracuda CloudGen Firewall F Series virtual machines in an existing VNET. 
 
