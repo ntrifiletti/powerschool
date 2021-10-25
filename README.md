@@ -13,7 +13,8 @@ You can enable programatic deployment via Powershell using the Cloud Shell featu
 
 
 
-## DEPLOY SINGLE INSTANCE FIREWALL<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2F470988f38ff6ac714a36f9151b3918d657f6f7b7%2Fcustom-sa-no-elb-no-rt.json" target="_blank">
+## DEPLOY SINGLE INSTANCE FIREWALL
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2F470988f38ff6ac714a36f9151b3918d657f6f7b7%2Fcustom-sa-no-elb-no-rt.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
