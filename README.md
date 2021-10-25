@@ -21,7 +21,9 @@ You can enable programatic deployment via Powershell using the Cloud Shell featu
 Following resources will be created by these templates:
 
 - One virtual machine with network interface, NSG, public IP
-- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
+- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps.
+- Deploys into existing resource group and VNET
+- Allows you to specific IP address during preconfiguration 
 
 
 
