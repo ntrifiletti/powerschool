@@ -31,12 +31,10 @@ Following resources will be created by these templates:
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2Fmain%2Fcustom-ha-as-no-elb-no-rt.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-- Two Virtual machines with network interfaces and public IPs in a Availability Set
-- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
 
 Following resources will be created by these templates:
-
-The package provides a deploy.ps1 and deploy.sh for Powershell or Azure CLI based deployments. This can be peformed from the Azure Portal as well as the any system that has either of these scripting infrastructures installed. Or you can deploy from the Azure Portal using the provided link.
+- Two Virtual machines with network interfaces and public IPs in a Availability Set
+- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
 
 
 
