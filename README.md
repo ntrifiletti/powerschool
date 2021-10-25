@@ -13,12 +13,10 @@ You can enable programatic deployment via Powershell using the Cloud Shell featu
 
 
 
-## DEPLOY SINGLE INSTANCE FIREWALL
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2F470988f38ff6ac714a36f9151b3918d657f6f7b7%2Fcustom-sa-no-elb-no-rt.json" target="_blank">
+## DEPLOY SINGLE INSTANCE FIREWALL<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2F470988f38ff6ac714a36f9151b3918d657f6f7b7%2Fcustom-sa-no-elb-no-rt.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-## Deployed resources
 Following resources will be created by these templates:
 
 - One virtual machine with network interface, NSG, public IP
@@ -32,7 +30,6 @@ Following resources will be created by these templates:
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fntrifiletti%2Fpowerschool%2Fmain%2Fcustom-ha-as-no-elb-no-rt.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-## Deployed resources
 - Two Virtual machines with network interfaces and public IPs in a Availability Set
 - Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
 
