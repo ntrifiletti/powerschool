@@ -12,7 +12,13 @@ You can enable programatic deployment via Powershell using the Cloud Shell featu
 
 
 ## Deployed resources
-Following resources will be created by the template:
+Following resources will be created by these templates:
+
+#Stand Alone
+- One virtual machine with network interface, NSG, public IP
+- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
+
+#HA Clustered
 - Two Virtual machines with network interfaces and public IPs in a Availability Set
 - Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
 
