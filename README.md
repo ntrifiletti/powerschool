@@ -7,7 +7,7 @@ These templates are useful when migrating to existing resource groups, vnets and
 ## Prerequisites
 The solution does a check of the template when you use the provide scripts. It does require that [Programmatic Deployment](https://azure.microsoft.com/en-us/blog/working-with-marketplace-images-on-azure-resource-manager/) is enabled for the Barracuda CloudGen Firewall F BYOL or PAYG images. Barracuda recommends use of **DS2_v2**, **Dv3_v3**, or newer series. 
 
-You can enable programatic deployment via Powershell using the Cloud Shell feature in the portal. Below are two powershell examples for byol and hourly, please adapt as required to your version of powershell and byol or hourly license requirement.
+You can enable programmatic deployment via Powershell using the Cloud Shell feature in the portal. Below are two powershell examples for byol and hourly, please adapt as required to your version of powershell and byol or hourly license requirement.
 
 `Get-AzMarketplaceTerms -Publisher "barracudanetworks" -Product "barracuda-ng-firewall" -Name "byol" | Set-AzMarketplaceTerms -Accept`
 `Get-AzureRmMarketplaceTerms -Publisher "barracudanetworks" -Product "barracuda-ng-firewall" -Name "hourly" | Set-AzureRmMarketplaceTerms -Accept`
@@ -23,7 +23,7 @@ You can enable programatic deployment via Powershell using the Cloud Shell featu
 Following resources will be created by these templates:
 
 - One virtual machine with network interface, NSG, public IP
-- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps.
+- Public IP's SKU's are set to basic and should dissociated and deleted during the appropriate migration steps.
 - Deploys into existing resource group and VNET
 - Template has parameter to set static IP address during preconfiguration 
 
