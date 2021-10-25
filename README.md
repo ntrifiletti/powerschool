@@ -12,6 +12,8 @@ You can enable programmatic deployment via Powershell using the Cloud Shell feat
 `Get-AzMarketplaceTerms -Publisher "barracudanetworks" -Product "barracuda-ng-firewall" -Name "byol" | Set-AzMarketplaceTerms -Accept`
 `Get-AzureRmMarketplaceTerms -Publisher "barracudanetworks" -Product "barracuda-ng-firewall" -Name "hourly" | Set-AzureRmMarketplaceTerms -Accept`
 
+`Important - The templates are designed to be deployed into Resource Groups and VNET's that already exist!`
+
 
 
 
