@@ -18,7 +18,7 @@ Following resources will be created by these templates:
 - One virtual machine with network interface, NSG, public IP
 - Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
 
-## Launching the Template - STAND ALONE FIREWALL
+## DEPLOY SINGLE INSTANCE FIREWALL
 
 The package provides a deploy.ps1 and deploy.sh for Powershell or Azure CLI based deployments. This can be peformed from the Azure Portal as well as the any system that has either of these scripting infrastructures installed. Or you can deploy from the Azure Portal using the provided link.
 
