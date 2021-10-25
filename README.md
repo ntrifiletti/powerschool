@@ -14,5 +14,5 @@ You can enable programatic deployment via Powershell using the Cloud Shell featu
 ## Deployed resources
 Following resources will be created by the template:
 - Two Virtual machines with network interfaces and public IPs in a Availability Set
-- Public IP's are set to basic and to be used during migration.
-- NSG's are not associated with the NIC to allow for quicker migration. 
+- Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
+
