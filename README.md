@@ -44,6 +44,7 @@ Following resources will be created by these templates:
 </a>
 
 Following resources will be created by these templates:
+- Important - You must modify this template in Azure ARM to set the STATIC IP address for each firewall!
 - Two Virtual machines with network interfaces and public IPs in a Availability Set
 - Public IP's SKU's are set to basic and should disassociated and deleted during the appropriate migration steps. 
 
