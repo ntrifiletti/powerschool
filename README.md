@@ -1,6 +1,6 @@
 # # Barracuda CloudGen Firewall Custom Scripts for Migration
 ## Introduction
-This Azure Resource Manager (ARM) template will deploy a cluster of Barracuda CloudGen Firewall F Series virtual machines in an existing VNET. 
+This Azure Resource Manager (ARM) templates in this repo will deploy single instance or clusters of Barracuda CloudGen Firewall F Series virtual machines in an existing VNET. 
 
 ## Prerequisites
 The solution does a check of the template when you use the provide scripts. It does require that [Programmatic Deployment](https://azure.microsoft.com/en-us/blog/working-with-marketplace-images-on-azure-resource-manager/) is enabled for the Barracuda CloudGen Firewall F BYOL or PAYG images. Barracuda recommends use of **D**, **D_v2**, **F** or newer series. 
