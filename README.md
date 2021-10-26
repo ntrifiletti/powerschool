@@ -2,7 +2,9 @@
 ## Introduction
 The Azure Resource Manager (ARM) templates in this repo will deploy single instance or HA clusters of Barracuda CloudGen Firewall F Series virtual machines in an existing VNET. The templates are barebone configurations and exclude Azure Load Balancers (ELB/ILB), route tables and the applicable variables.
 
-These templates are useful when migrating to existing resource groups, vnets and where you intend to reuse existing Azure infrastructure like Load Balancers and Public IP's. 
+These templates are useful when migrating to existing resource groups, vnets and where you intend to reuse existing Azure infrastructure like Load Balancers and Public IP's.
+
+Additional Azure Templates can be found on the [Barracuda Networks CGF Azure Repo](https://github.com/barracudanetworks/ngf-azure-templates)
 
 ## Prerequisites
 `Important - The templates are designed to be deployed into Resource Groups and VNET's that already exist!`
