@@ -55,6 +55,7 @@ Following resources will be created by these templates:
 </a>
 
 Following resources will be created by these templates:
+
 `Important - You must modify this template in Azure ARM or prior to execution to set the STATIC IP address for each firewall!'`
 - Two Virtual machines with network interfaces and public IPs in a Availability Set
 - Deploys into existing resource group and VNET
